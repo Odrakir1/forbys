@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T21:13:19.808Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vCXUzUqASHq8vVGfazJM" version="24.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-04-11T21:51:29.617Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="CB4XZmbe5RA6bNk0Wf3S" version="24.2.3" type="github" pages="3">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Template Creation flow">
     <mxGraphModel dx="1647" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -68,69 +68,136 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="G9E4f-NOdL25kdyCsKLX" name="Página-2">
+  <diagram id="G9E4f-NOdL25kdyCsKLX" name="Selecting template flow">
     <mxGraphModel dx="1647" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jNYyZVm4Viohf4AqFrSK-15" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;Forbys - Selecting template flow&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jNYyZVm4Viohf4AqFrSK-15" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;Forbys - Selecting template flow&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="40" width="430" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="wovtyABd8q-iRptFVRPc-3">
+        <mxCell id="wovtyABd8q-iRptFVRPc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="wovtyABd8q-iRptFVRPc-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="250" as="targetPoint" />
+            <mxPoint x="600" y="289" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;GET /templates&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wovtyABd8q-iRptFVRPc-5">
+        <mxCell id="wovtyABd8q-iRptFVRPc-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;GET /templates&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wovtyABd8q-iRptFVRPc-5" vertex="1" connectable="0">
           <mxGeometry x="-0.143" y="1" relative="1" as="geometry">
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/root-access-128.png" vertex="1" parent="1">
-          <mxGeometry x="50" y="210" width="80" height="80" as="geometry" />
+        <mxCell id="wovtyABd8q-iRptFVRPc-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/root-access-128.png" parent="1" vertex="1">
+          <mxGeometry x="270" y="249" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+        <mxCell id="wovtyABd8q-iRptFVRPc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="280" as="targetPoint" />
-            <mxPoint x="377.70000000000005" y="280.81999999999994" as="sourcePoint" />
+            <mxPoint x="350" y="319" as="targetPoint" />
+            <mxPoint x="597.7" y="319.81999999999994" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="254" y="281" />
+              <mxPoint x="474" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
-          <mxGeometry x="386" y="222" width="68" height="68" as="geometry" />
+        <mxCell id="wovtyABd8q-iRptFVRPc-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" parent="1" vertex="1">
+          <mxGeometry x="606" y="261" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Client requests templates and the Backend application returns the previously saved template metadata, such as name and thumbnail&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="181" width="180" height="150" as="geometry" />
+        <mxCell id="wovtyABd8q-iRptFVRPc-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Client requests templates and the Backend application returns the previously saved template metadata, such as name and thumbnail&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="220" width="180" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="wovtyABd8q-iRptFVRPc-26">
+        <mxCell id="wovtyABd8q-iRptFVRPc-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="wovtyABd8q-iRptFVRPc-26" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="490" as="targetPoint" />
+            <mxPoint x="600" y="529" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;POST /pages&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wovtyABd8q-iRptFVRPc-24">
+        <mxCell id="wovtyABd8q-iRptFVRPc-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;POST /pages&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wovtyABd8q-iRptFVRPc-24" vertex="1" connectable="0">
           <mxGeometry x="-0.143" y="1" relative="1" as="geometry">
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/root-access-128.png" vertex="1" parent="1">
-          <mxGeometry x="50" y="450" width="80" height="80" as="geometry" />
+        <mxCell id="wovtyABd8q-iRptFVRPc-26" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/root-access-128.png" parent="1" vertex="1">
+          <mxGeometry x="270" y="489" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+        <mxCell id="wovtyABd8q-iRptFVRPc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="130" y="520" as="targetPoint" />
-            <mxPoint x="377.70000000000005" y="520.8199999999999" as="sourcePoint" />
+            <mxPoint x="350" y="559" as="targetPoint" />
+            <mxPoint x="597.7" y="559.8199999999999" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="254" y="521" />
+              <mxPoint x="474" y="560" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-28" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
-          <mxGeometry x="386" y="462" width="68" height="68" as="geometry" />
+        <mxCell id="wovtyABd8q-iRptFVRPc-28" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" parent="1" vertex="1">
+          <mxGeometry x="606" y="501" width="68" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="wovtyABd8q-iRptFVRPc-29" value="Backend application must create a new subdomain for that customer. This might need to be an async process.&lt;br&gt;&lt;br&gt;If it must be indeed async, the system must notify (via email, e.g) when the process is done" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="430" width="200" height="120" as="geometry" />
+        <mxCell id="wovtyABd8q-iRptFVRPc-29" value="Backend application must create a new subdomain for that customer. This might need to be an async process.&lt;br&gt;&lt;br&gt;If it must be indeed async, the system must notify (via email, e.g) when the process is done" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="750" y="469" width="200" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qa03aTNKU8M3Vep_g4bb" name="Página-3">
+    <mxGraphModel dx="1647" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xre-QHLoodkeG_uHPROM-14" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;&lt;b&gt;Forbys - Accessing the page instance&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="40" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="xre-QHLoodkeG_uHPROM-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;GET /templates&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xre-QHLoodkeG_uHPROM-15">
+          <mxGeometry x="-0.143" y="1" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/root-access-128.png" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="500" as="targetPoint" />
+            <mxPoint x="587.7" y="500.81999999999994" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="464" y="501" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="596" y="442" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-20" value="All the pages instances will have a JavaScript snippet that will fetch content to be injected&lt;br&gt;&lt;br&gt;&lt;br&gt;Replacement process to be decided to be processed either in client-side or server-side since optimization must be taken into account" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="xre-QHLoodkeG_uHPROM-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;POST /pages&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xre-QHLoodkeG_uHPROM-21">
+          <mxGeometry x="-0.143" y="1" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/root-access-128.png" vertex="1" parent="1">
+          <mxGeometry x="260" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.025;exitY=0.865;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="740" as="targetPoint" />
+            <mxPoint x="587.7" y="740.8199999999999" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="464" y="741" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-25" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Azure_Spring_Cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="596" y="682" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="xre-QHLoodkeG_uHPROM-26" value="Backend application must create a new subdomain for that customer. This might need to be an async process.&lt;br&gt;&lt;br&gt;If it must be indeed async, the system must notify (via email, e.g) when the process is done" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="469" width="200" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
