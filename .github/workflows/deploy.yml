@@ -66,31 +66,10 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             whoami
-            kubectl get pods
-
-      # - name: Install dependencies
-      #   run: |
-      #     sudo apt-get install -y openssh-client
-
-      # - name: Add SSH key to agent (if using SSH key auth)
-      #   run: |
-      #     mkdir -p ~/.ssh/
-      #     echo "$VPS_SSH_KEY" >> ~/.ssh/id_rsa
-      #     chmod 600 ~/.ssh/id_rsa
-      #     eval "$(ssh-agent -s)"
-      #     ssh-add ~/.ssh/id_rsa
-      #     ssh-keyscan $VPS_HOST >> ~/.ssh/known_hosts
-      #     echo ~/.ssh/known_hosts
-      #   shell: bash
+            kubectl get nodes
 
       - name: Checkout repository
         uses: actions/checkout@v2
-
-      - name: Set up Kubernetes context
-        run: |
-          echo "${{ secrets.KUBECONFIG }}" > /tmp/kubeconfig
-          export KUBECONFIG=/tmp/kubeconfig
-          kubectl get nodes
 
       - name: Deploy with Helm
         run: |
