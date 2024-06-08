@@ -58,6 +58,9 @@ jobs:
 
     steps:
       
+      - name: "Authorize keys"
+        run: cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+
       - name: "Connect to VPS"
         uses: appleboy/ssh-action@v1.0.3
         with:
