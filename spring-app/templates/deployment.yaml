@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "helm-spring-app.fullname" . }}
+  name: {{ include "spring-app.fullname" . }}
   labels:
-    {{- include "helm-spring-app.labels" . | nindent 4 }}
+    {{- include "spring-app.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "helm-spring-app.selectorLabels" . | nindent 6 }}
+      {{- include "spring-app.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "helm-spring-app.selectorLabels" . | nindent 8 }}
+        {{- include "spring-app.selectorLabels" . | nindent 8 }}
     spec:
       containers:
         - name: {{ .Chart.Name }}
