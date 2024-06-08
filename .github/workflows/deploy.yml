@@ -21,21 +21,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get install -y openssh-client
-
-      - name: Add SSH key to agent (if using SSH key auth)
-        run: |
-          mkdir -p ~/.ssh/
-          echo "$VPS_SSH_KEY" >> ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          eval "$(ssh-agent -s)"
-          ssh-add ~/.ssh/id_rsa
-          ssh-keyscan $VPS_HOST >> ~/.ssh/known_hosts
-          echo ~/.ssh/known_hosts
-        shell: bash
-
       - name: Set up JDK 17
         uses: actions/setup-java@v1
         with:
@@ -70,6 +55,31 @@ jobs:
     needs: build
 
     steps:
+      
+      # - name: "Build da aplicação"
+      #   uses: appleboy/ssh-action@v1.0.3
+      #   with:
+      #     host: "$VPS_HOST"
+      #     username: "$VPS_USERNAME"
+      #     key: $VPS_SSH_KEY
+      #     script: |
+      #       kubectl get pods
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get install -y openssh-client
+
+      - name: Add SSH key to agent (if using SSH key auth)
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$VPS_SSH_KEY" >> ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa
+          ssh-keyscan $VPS_HOST >> ~/.ssh/known_hosts
+          echo ~/.ssh/known_hosts
+        shell: bash
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -77,7 +87,7 @@ jobs:
         run: |
           echo "${{ secrets.KUBECONFIG }}" > /tmp/kubeconfig
           export KUBECONFIG=/tmp/kubeconfig
-          kubectl get nodes  # Teste a conectividade com o cluster
+          kubectl get nodes
 
       - name: Deploy with Helm
         run: |
