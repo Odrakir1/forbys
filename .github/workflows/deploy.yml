@@ -36,9 +36,6 @@ jobs:
           echo ~/.ssh/known_hosts
         shell: bash
 
-      - name: Test connection
-        run: ping -c 2 "https://$VPS_HOST"
-
       - name: Set up JDK 17
         uses: actions/setup-java@v1
         with:
