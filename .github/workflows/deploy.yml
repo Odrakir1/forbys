@@ -71,7 +71,7 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_SSH_KEY }}
-          source: "spring-app/"
+          source: "spring-app/*"
           target: spring-app
       
       - name: Deploy with Helm
