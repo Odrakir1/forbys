@@ -70,6 +70,15 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Copy Helm Chart into VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          source: "spring-app/"
+          target: spring-app
       
       - name: Deploy with Helm
         uses: appleboy/ssh-action@v1.0.3
