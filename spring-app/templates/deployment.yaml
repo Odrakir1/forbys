@@ -20,3 +20,5 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: 8080
+      imagePullSecrets:
+        - name: {{ .Values.imagePullSecrets[0].name }}
