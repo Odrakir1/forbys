@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T23:27:20.686Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="joZuJ0XoxRl3VM4X9g6m" version="24.2.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-08-14T02:17:13.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" etag="FcN1xKcD03xnD5syESUZ" version="24.6.4" type="github" pages="4">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Template Creation flow">
     <mxGraphModel dx="1267" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qa03aTNKU8M3Vep_g4bb" name="Accessing the page instance">
-    <mxGraphModel dx="2745" dy="1325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1094" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,7 +184,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Pipeline" id="A8hxffHLHmRXauNMcGvZ">
-    <mxGraphModel dx="2145" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,8 +212,8 @@
         <mxCell id="WfoXb9AaUi6uvD6ZLhsA-5" value="Spring" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="570" y="360" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WfoXb9AaUi6uvD6ZLhsA-7" value="http://restaurante.template.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-20" y="300" width="190" height="30" as="geometry" />
+        <mxCell id="WfoXb9AaUi6uvD6ZLhsA-7" value="http://joao-das-neves.forbys.com" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-25" y="300" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WfoXb9AaUi6uvD6ZLhsA-8" value="Routes:&lt;br&gt;a:&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;http://restaurante.template.com&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;backend: Nginx-service&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;path: /template/restaurante&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="430" width="250" height="120" as="geometry" />
